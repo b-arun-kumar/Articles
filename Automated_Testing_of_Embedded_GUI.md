@@ -8,11 +8,11 @@ This will help us evaluate and choose a suitable test framework.
 
 The test framework can be viewed as a client-server model.
 
-![Image 1](icons/ATEGUI/1.png)
+![Image 1](Icons/ATEGUI/1.png)
 
 In this test framework, the *client* would be the *Test tool* that makes requests. The *server* would be the *UI agent* that consumes the request and sends the response.
 
-![Image 2](icons/ATEGUI/2.png)
+![Image 2](Icons/ATEGUI/2.png)
 
 # Request
 
@@ -57,7 +57,7 @@ The testing techniques can be classified into two categories:
 
   This technique is a combination of coordinate-based request & image-based response.
   
-  ![Image 3](icons/ATEGUI/3.png)
+  ![Image 3](Icons/ATEGUI/3.png)
 
   Workflow -
 
@@ -71,7 +71,7 @@ The testing techniques can be classified into two categories:
 
   5. The test tool validates the test using the screenshot in the response by employing image comparison, object recognition, text recognition, etc.
 
-  ![Image 4](icons/ATEGUI/4.png)
+  ![Image 4](Icons/ATEGUI/4.png)
   
   Pros -
 
@@ -93,7 +93,7 @@ The testing techniques can be classified into two categories:
 
   This technique is a combination of widget-based request & widget-based response.
   
-  ![Image 5](icons/ATEGUI/5.png)
+  ![Image 5](Icons/ATEGUI/5.png)
 
   Workflow -
 
@@ -107,7 +107,7 @@ The testing techniques can be classified into two categories:
 
   5. The test tool validates the test using the widget’s information from the response.
 
-  ![Image 6](icons/ATEGUI/6.png)
+  ![Image 6](Icons/ATEGUI/6.png)
   
   Pros -
 
@@ -131,7 +131,7 @@ Below is the typical test environment:
 
 - The test tool and the UI agent communicate with each other via an interface of the embedded device.
 
-![Image 7](icons/ATEGUI/7.png)
+![Image 7](Icons/ATEGUI/7.png)
 
 When the test’s execution and verification is simple and straight forward, the test tool can be in the embedded device. When the test’s execution and verification involve image processing or other activities which cannot be performed on an embedded device, the test tool is located on a host PC.
 
